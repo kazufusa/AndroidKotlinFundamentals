@@ -15,3 +15,9 @@ The application directory is [./HelloWorld](./HelloWorld).
 https://developer.android.com/codelabs/kotlin-android-training-app-anatomy
 
 The application directory is [./DiceRoller](./DiceRoller).
+
+## 01.3 Image resources and compatibility
+
+https://developer.android.com/codelabs/kotlin-android-training-images-compat
+
+The application directory is [./DiceRoller2](./DiceRoller2).
