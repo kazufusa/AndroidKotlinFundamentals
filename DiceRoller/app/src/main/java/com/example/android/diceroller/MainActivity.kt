@@ -18,14 +18,31 @@ class MainActivity : AppCompatActivity() {
 
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener { rollDice() }
+
+        val countUpButton: Button = findViewById(R.id.count_up_button)
+        countUpButton.setOnClickListener { countUp() }
     }
 
     /**
      * Click listener for the Roll button.
      */
     private fun rollDice() {
-        Toast.makeText(this, "button clocked", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "dice roll button clicked", Toast.LENGTH_SHORT).show()
         val resultText: TextView = findViewById(R.id.result_text)
         resultText.text = (1..6).random().toString()
+    }
+
+    /**
+     * Click listener for the Count Up button.
+     */
+    private fun countUp() {
+        Toast.makeText(this, "count up button clicked", Toast.LENGTH_SHORT).show()
+        val resultText: TextView = findViewById(R.id.result_text)
+        val text = resultText.text.toString()
+        if (text == "Hello World!") {
+            resultText.text = "1"
+        } else if (text != "6") {
+            resultText.text = (resultText.text.toString().toInt() + 1).toString()
+        }
     }
 }
