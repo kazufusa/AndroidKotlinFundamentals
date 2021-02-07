@@ -3,7 +3,6 @@ package com.example.android.diceroller
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 /**
@@ -24,13 +23,15 @@ class MainActivity : AppCompatActivity() {
 
         val rollButton: Button = findViewById(R.id.roll_button)
         rollButton.setOnClickListener { rollDice() }
+
+        val clearButton: Button = findViewById(R.id.clear_button)
+        clearButton.setOnClickListener { clear() }
     }
 
     /**
      * Click listener for the Roll button.
      */
     private fun rollDice() {
-        Toast.makeText(this, "button clocked", Toast.LENGTH_SHORT).show()
         diceImage1.setImageResource(getRandomDiceImage())
         diceImage2.setImageResource(getRandomDiceImage())
     }
@@ -43,4 +44,13 @@ class MainActivity : AppCompatActivity() {
         5 -> R.drawable.dice_5
         else -> R.drawable.dice_6
     }
+
+    /**
+     * Click listener for the Clear button.
+     */
+    private fun clear() {
+        diceImage1.setImageResource(R.drawable.empty_dice)
+        diceImage2.setImageResource(R.drawable.empty_dice)
+    }
+
 }
