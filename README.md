@@ -26,3 +26,8 @@ The application directory is [./DiceRoller2](./DiceRoller2).
 
 https://developer.android.com/codelabs/kotlin-android-training-available-resources/
 
+## 01.5 LinerLayout using the Layout Editor
+
+https://developer.android.com/codelabs/kotlin-android-training-linear-layout/index.html
+
+The application directory is [./AboutMe](./AboutMe).
