@@ -21,3 +21,8 @@ The application directory is [./DiceRoller](./DiceRoller).
 https://developer.android.com/codelabs/kotlin-android-training-images-compat
 
 The application directory is [./DiceRoller2](./DiceRoller2).
+
+## 01.4 Learn to help yourself
+
+https://developer.android.com/codelabs/kotlin-android-training-available-resources/
+
