@@ -36,6 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="1.2"
-            android:text="@string/bio" />
+            android:text="@string/bio"
+            app:drawableTopCompat="@android:drawable/btn_star_big_off" />
     </ScrollView>
+
 </LinearLayout>
