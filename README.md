@@ -31,3 +31,9 @@ https://developer.android.com/codelabs/kotlin-android-training-available-resourc
 https://developer.android.com/codelabs/kotlin-android-training-linear-layout/index.html
 
 The application directory is [./AboutMe](./AboutMe).
+
+## Add user interactivity
+
+https://developer.android.com/codelabs/kotlin-android-training-interactivity/index.html#2
+
+The application directory is [./AboutMeInteractive](./AboutMeInteractive).
