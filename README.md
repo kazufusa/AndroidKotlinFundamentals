@@ -48,4 +48,5 @@ The application directory is [./AboutMeInteractive](./AboutMeInteractive).
 
 https://developer.android.com/codelabs/kotlin-android-training-constraint-layout/index.html
 
-[./ColorMyViews](./ColorMyViews).
+- [./ColorMyViews](./ColorMyViews).
+- TODO: [coding charenge](https://developer.android.com/codelabs/kotlin-android-training-constraint-layout/index.html#8)
