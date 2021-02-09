@@ -54,3 +54,5 @@ https://developer.android.com/codelabs/kotlin-android-training-constraint-layout
 ### 02.4: Data binding basics
 
 https://developer.android.com/codelabs/kotlin-android-training-data-binding-basics/index.html#0
+
+- [./AboutMeDataBinding](./AboutMeDataBinding).
