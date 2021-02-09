@@ -50,3 +50,7 @@ https://developer.android.com/codelabs/kotlin-android-training-constraint-layout
 
 - [./ColorMyViews](./ColorMyViews).
 - TODO: [coding charenge](https://developer.android.com/codelabs/kotlin-android-training-constraint-layout/index.html#8)
+
+### 02.4: Data binding basics
+
+https://developer.android.com/codelabs/kotlin-android-training-data-binding-basics/index.html#0
