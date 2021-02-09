@@ -4,10 +4,9 @@ import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
+import com.android.example.aboutme.databinding.ActivityMainBinding
 
 /**
  * MainActivity of the AboutMe app. This app demonstrated:
@@ -17,16 +16,18 @@ import androidx.appcompat.app.AppCompatActivity
  *      * Setting the visibility status of a view.
  */
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        findViewById<Button>(R.id.done_button).setOnClickListener {
-            addNickname(it)
+        binding.doneButton.setOnClickListener {
+            addNickname()
         }
 
-        findViewById<TextView>(R.id.nickname_text).setOnClickListener {
-            updateNickname(it)
+        binding.nicknameText.setOnClickListener {
+            updateNickname()
         }
     }
 
@@ -35,18 +36,17 @@ class MainActivity : AppCompatActivity() {
      * Hides the EditText and the DONE button.
      * Sets the EditText content to the TextView and displays it.
      */
-    private fun addNickname(view: View) {
-        val editText = findViewById<EditText>(R.id.nickname_edit)
-        val nicknameTextView = findViewById<TextView>(R.id.nickname_text)
+    private fun addNickname() {
+        binding.apply {
+            nicknameText.text = nicknameEdit.text.toString()
+            nicknameText.visibility = View.VISIBLE
+            nicknameEdit.visibility = View.GONE
+            doneButton.visibility = View.GONE
 
-        nicknameTextView.text = editText.text
-        nicknameTextView.visibility = View.VISIBLE
-        editText.visibility = View.GONE
-        view.visibility = View.GONE
-
-        // hide  the keyboard.
-        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.hideSoftInputFromWindow(view.windowToken, 0)
+            // hide  the keyboard.
+            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(doneButton.windowToken, 0)
+        }
     }
 
     /**
@@ -54,19 +54,18 @@ class MainActivity : AppCompatActivity() {
      * Displays the EditText and the Done button.
      * Hides the nickname TextView.
      */
-    private fun updateNickname(view: View) {
-        val editText = findViewById<EditText>(R.id.nickname_edit)
-        val doneButton = findViewById<Button>(R.id.done_button)
+    private fun updateNickname() {
+        binding.apply {
+            nicknameEdit.visibility = View.VISIBLE
+            doneButton.visibility = View.VISIBLE
+            nicknameText.visibility = View.GONE
 
-        editText.visibility = View.VISIBLE
-        doneButton.visibility = View.VISIBLE
-        view.visibility = View.GONE
+            // Set the focus to the edit text.
+            nicknameEdit.requestFocus()
 
-        // Set the focus to the edit text.
-        editText.requestFocus()
-
-        // Show the keyboard.
-        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-        imm.showSoftInput(editText, 0)
+            // Show the keyboard.
+            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.showSoftInput(nicknameEdit, 0)
+        }
     }
 }
