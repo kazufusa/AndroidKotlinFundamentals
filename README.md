@@ -56,3 +56,9 @@ https://developer.android.com/codelabs/kotlin-android-training-constraint-layout
 https://developer.android.com/codelabs/kotlin-android-training-data-binding-basics/index.html#0
 
 - [./AboutMeDataBinding](./AboutMeDataBinding).
+
+## Lesson 3: Navigation
+
+### 03.1 Create a fragment
+
+https://developer.android.com/codelabs/kotlin-android-training-create-and-add-fragment/index.html#0
