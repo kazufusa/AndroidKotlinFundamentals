@@ -59,6 +59,12 @@ https://developer.android.com/codelabs/kotlin-android-training-data-binding-basi
 
 ## Lesson 3: Navigation
 
+- [./AndroidTrivia-Starter](./AndroidTrivia-Starter).
+
 ### 03.1 Create a fragment
 
 https://developer.android.com/codelabs/kotlin-android-training-create-and-add-fragment/index.html#0
+
+### 03.2 Define navigation paths
+
+https://developer.android.com/codelabs/kotlin-android-training-add-navigation/index.html
