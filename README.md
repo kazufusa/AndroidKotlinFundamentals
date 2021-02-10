@@ -96,3 +96,9 @@ https://developer.android.com/codelabs/kotlin-android-training-add-navigation/in
 13. B: `NavigationUI.setupWithNavController(navigationView, navigationController)`
 14. Link the navigation controller to the app bar using `NavigationUI.setupActionBarWithNavController(context, navigationController)`
     - Override `onSuppoertNavigationUp()` method to call `navigationUp()` on the navigation contoller.
+
+### 03.3 Start an external Activity
+
+
+https://developer.android.com/codelabs/kotlin-android-training-start-external-activity/index.html
+
