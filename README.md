@@ -115,3 +115,5 @@ The application directory is [./DessertClicker-Starter](./DessertClicker-Starter
 ### 5.1. ViewModel
 
 https://developer.android.com/codelabs/kotlin-android-training-view-model
+
+The application directory is [./GuessTheWord-Starter](./GuessTheWord-Starter).
