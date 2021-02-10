@@ -109,3 +109,9 @@ https://developer.android.com/codelabs/kotlin-android-training-start-external-ac
 https://developer.android.com/codelabs/kotlin-android-training-lifecycles-logging
 
 The application directory is [./DessertClicker-Starter](./DessertClicker-Starter).
+
+## Lesson 5: Architecture components
+
+### 5.1. ViewModel
+
+https://developer.android.com/codelabs/kotlin-android-training-view-model
