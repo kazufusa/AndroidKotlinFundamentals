@@ -102,3 +102,10 @@ https://developer.android.com/codelabs/kotlin-android-training-add-navigation/in
 
 https://developer.android.com/codelabs/kotlin-android-training-start-external-activity/index.html
 
+## Lesson 4: Activity and fragment lifecycles
+
+### 4.1. Lifecycles and logging
+
+https://developer.android.com/codelabs/kotlin-android-training-lifecycles-logging
+
+The application directory is [./DessertClicker-Starter](./DessertClicker-Starter).
