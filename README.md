@@ -112,8 +112,12 @@ The application directory is [./DessertClicker-Starter](./DessertClicker-Starter
 
 ## Lesson 5: Architecture components
 
+The application directory is [./GuessTheWord-Starter](./GuessTheWord-Starter).
+
 ### 5.1. ViewModel
 
 https://developer.android.com/codelabs/kotlin-android-training-view-model
 
-The application directory is [./GuessTheWord-Starter](./GuessTheWord-Starter).
+### 5.2. LiveData and LiveData observers
+
+https://developer.android.com/codelabs/kotlin-android-training-live-data
