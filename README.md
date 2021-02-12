@@ -134,6 +134,10 @@ https://developer.android.com/codelabs/kotlin-android-training-live-data-transfo
 
 The application directory is [./TrackMySleepQuality-Starter](./TrackMySleepQuality-Starter).
 
-#### 6.1. Create a Room Database
+### 6.1. Create a Room Database
 
 https://developer.android.com/codelabs/kotlin-android-training-room-database
+
+### 6.2. Coroutines and Room
+
+https://developer.android.com/codelabs/kotlin-android-training-coroutines-and-room
