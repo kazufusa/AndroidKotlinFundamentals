@@ -141,3 +141,7 @@ https://developer.android.com/codelabs/kotlin-android-training-room-database
 ### 6.2. Coroutines and Room
 
 https://developer.android.com/codelabs/kotlin-android-training-coroutines-and-room
+
+### 6.3. Use LiveData to control button states
+
+https://developer.android.com/codelabs/kotlin-android-training-quality-and-states
