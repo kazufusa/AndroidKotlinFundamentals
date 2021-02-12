@@ -121,3 +121,7 @@ https://developer.android.com/codelabs/kotlin-android-training-view-model
 ### 5.2. LiveData and LiveData observers
 
 https://developer.android.com/codelabs/kotlin-android-training-live-data
+
+### 5.3. Data binding with ViewModel and LiveData
+
+https://developer.android.com/codelabs/kotlin-android-training-live-data-data-binding
