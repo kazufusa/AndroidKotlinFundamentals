@@ -129,3 +129,11 @@ https://developer.android.com/codelabs/kotlin-android-training-live-data-data-bi
 ### 5.4. LiveData transformations
 
 https://developer.android.com/codelabs/kotlin-android-training-live-data-transformations#10
+
+## Lisson 6: Room database and coroutines
+
+The application directory is [./TrackMySleepQuality-Starter](./TrackMySleepQuality-Starter).
+
+#### 6.1. Create a Room Database
+
+https://developer.android.com/codelabs/kotlin-android-training-room-database
