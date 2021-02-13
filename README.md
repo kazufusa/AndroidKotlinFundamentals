@@ -175,3 +175,7 @@ https://developer.android.com/codelabs/kotlin-android-training-diffutil-databind
 ### 7.3. GridLayout with RecyclerView
 
 https://developer.android.com/codelabs/kotlin-android-training-grid-layout
+
+### 7.4. Interactive with RecyclerView items
+
+https://developer.android.com/codelabs/kotlin-android-training-interacting-with-items
