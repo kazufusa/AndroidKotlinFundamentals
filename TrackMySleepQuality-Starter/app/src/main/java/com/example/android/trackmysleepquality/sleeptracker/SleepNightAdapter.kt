@@ -13,6 +13,7 @@ import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.convertDurationToFormatted
 import com.example.android.trackmysleepquality.convertNumericQualityToString
 import com.example.android.trackmysleepquality.database.SleepNight
+import com.example.android.trackmysleepquality.databinding.ListItemSleepNightBinding
 
 class SleepNightAdapter : ListAdapter<SleepNight, SleepNightAdapter.ViewHolder>(SleepNightDiffCallback()) {
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
@@ -24,10 +25,11 @@ class SleepNightAdapter : ListAdapter<SleepNight, SleepNightAdapter.ViewHolder>(
         return ViewHolder.from(parent)
     }
 
-    class ViewHolder private constructor(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val sleepLength: TextView = itemView.findViewById(R.id.sleep_length)
-        private val quality: TextView = itemView.findViewById(R.id.quality_string)
-        private val qualityImage: ImageView = itemView.findViewById(R.id.quality_image)
+    class ViewHolder private constructor(val binding: ListItemSleepNightBinding) :
+            RecyclerView.ViewHolder(binding.root) {
+        private val sleepLength: TextView = binding.sleepLength
+        private val quality: TextView = binding.qualityString
+        private val qualityImage: ImageView = binding.qualityImage
 
         fun bind(item: SleepNight) {
             val res = itemView.context.resources
@@ -47,9 +49,8 @@ class SleepNightAdapter : ListAdapter<SleepNight, SleepNightAdapter.ViewHolder>(
         companion object {
             fun from(parent: ViewGroup): ViewHolder {
                 val layoutInflater = LayoutInflater.from(parent.context)
-                val view = layoutInflater
-                        .inflate(R.layout.list_item_sleep_night, parent, false)
-                return ViewHolder(view)
+                val binding = ListItemSleepNightBinding.inflate(layoutInflater, parent, false)
+                return ViewHolder(binding)
             }
         }
     }
