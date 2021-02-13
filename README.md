@@ -162,3 +162,12 @@ https://developer.android.com/codelabs/kotlin-android-training-recyclerview-fund
 > - A layout manager. The layout manager handles the organization (the layout) of UI components in a view.
 > - A view holder. The view holder extends the ViewHolder class. It contains the view information for displaying one item from the item's layout. View holders also add information that RecyclerView uses to efficiently move views around the screen.
 > - An adapter. The adapter connects your data to the RecyclerView. It adapts the data so that it can be displayed in a ViewHolder. A RecyclerView uses the adapter to figure out how to display the data on the screen.
+
+### 7.2. DiffUtil and data binding with RecyclerView
+
+https://developer.android.com/codelabs/kotlin-android-training-diffutil-databinding/#0
+
+> What you'll learn
+> 1. How to use DiffUtil, a utility that calculates the difference between two lists to efficiently update a list displayed by RecyclerView.
+> 1. How to use data binding with RecyclerView.
+> 1. How to use binding adapters to transform data.
