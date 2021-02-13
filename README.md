@@ -171,3 +171,7 @@ https://developer.android.com/codelabs/kotlin-android-training-diffutil-databind
 > 1. How to use DiffUtil, a utility that calculates the difference between two lists to efficiently update a list displayed by RecyclerView.
 > 1. How to use data binding with RecyclerView.
 > 1. How to use binding adapters to transform data.
+
+### 7.3. GridLayout with RecyclerView
+
+https://developer.android.com/codelabs/kotlin-android-training-grid-layout
