@@ -27,7 +27,6 @@ class SleepNightAdapter : ListAdapter<SleepNight, SleepNightAdapter.ViewHolder>(
 
     class ViewHolder private constructor(val binding: ListItemSleepNightBinding) :
             RecyclerView.ViewHolder(binding.root) {
-        private val sleepLength: TextView = binding.sleepLength
         private val quality: TextView = binding.qualityString
         private val qualityImage: ImageView = binding.qualityImage
 
