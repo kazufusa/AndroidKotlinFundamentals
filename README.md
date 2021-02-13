@@ -178,4 +178,6 @@ https://developer.android.com/codelabs/kotlin-android-training-grid-layout
 
 ### 7.4. Interactive with RecyclerView items
 
+The application directory is [./RecyclerViewClickHandler-Starter](./RecyclerViewClickHandler-Starter).
+
 https://developer.android.com/codelabs/kotlin-android-training-interacting-with-items
