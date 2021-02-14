@@ -181,3 +181,9 @@ https://developer.android.com/codelabs/kotlin-android-training-grid-layout
 The application directory is [./RecyclerViewClickHandler-Starter](./RecyclerViewClickHandler-Starter).
 
 https://developer.android.com/codelabs/kotlin-android-training-interacting-with-items
+
+### 7.5. Headers of RecyclerView
+
+https://developer.android.com/codelabs/kotlin-android-training-headers/
+
+The application directory is [./RecyclerViewClickHandler-Starter](./RecyclerViewClickHandler-Starter).
